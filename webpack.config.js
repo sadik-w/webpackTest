@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/main.js',
   // 输出目录
   output: {
-    filename: 'js/bundle.js',
+    filename: 'js/[name].js',
     path: path.resolve(__dirname, 'dist')
   },
   // 插件加载
